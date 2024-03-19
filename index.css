@@ -1,0 +1,96 @@
+*{margin: 0;padding: 0;}
+
+body{
+    width: 100%;
+    margin: 0;
+}
+.banner{
+    margin: auto;
+    height: 430px;
+    background: url(/picture/Toa-nha-cao-tang.jpg);
+    top: center;
+    display: block;
+    padding-top: 20px;
+    background-size: cover;
+}
+.banner  .landmark{
+    display: block;
+    padding-left: 30px;
+    padding-top: 10px;
+    height: 40px;
+    width: 100px;
+    background: linear-gradient(to left, rgba(242, 255, 0, 0.747), rgb(15, 184, 43));
+    margin-left: 1150px;
+    font-size: 25px;
+    border-radius: 40px;
+    overflow: hidden;
+    border: 2px solid #12d2e3b5;
+}
+.banner  .landmark:hover a{
+    font-size: 25.2px;
+}
+.banner  .landmark a{
+    color: white;
+    text-decoration: none;
+}
+.banner .year{
+    display: flex;
+    padding-left: 50px;
+    border: 3px solid white;
+    border-radius: 40px;
+    margin-left: 200px;
+    margin-top: 150px;
+    width: 170px;
+    overflow: hidden;
+}
+.banner .year .p1{
+    color: white;
+    font-size: 65px;
+    transition: 0.6s;
+}
+.banner .year:hover .p1{opacity: 0;transition: 0.6s;}
+.banner .year:hover .p2{opacity: 1;margin-left: 0;transition: 6s;}
+.banner .p2{
+    color: white;
+    font-size: 65px;
+    width: 170px;
+    margin-left: -170px;
+    opacity: 0;
+    transition: 0.6s;
+}
+.banner .nameweb{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.banner .nameweb .technology > hr {
+    color: #ffffff;
+    font-size: 3px;
+    width: 410px;
+    margin-top: -5px;
+    border: 1px solid #ffffff;
+}
+.banner .nameweb .technology{
+    font-size: 70px;
+    color: white;
+    height: 90px;
+}
+.banner .nameweb .world{
+    height: 90px;
+    font-size: 70px;
+    margin-top: 25px;
+}
+.nameweb > div > hr{
+    color: #000000;
+    font-size: 3px;
+    width: 210px;
+    margin-top: -15px;
+    border: 1px solid #000000;
+}
+.nameweb .fa{
+    color: rgba(255, 255, 255, 0.55);
+    margin-left: 550px;
+    margin-top: 50px;
+    font-size: 10px;
+}
